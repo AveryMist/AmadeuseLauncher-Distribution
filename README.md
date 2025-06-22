@@ -1,66 +1,165 @@
-# Amadeuse Launcher Distribution
+# 🚀 Amadeuse Launcher Distribution
 
-This repository contains the distribution files for Amadeuse Launcher, providing two carefully curated Minecraft modpacks.
+<div align="center">
 
-## 🎮 Available Modpacks
+![Amadeuse Launcher](https://img.shields.io/badge/Amadeuse-Launcher-blue?style=for-the-badge)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.12.2%20%7C%201.21.4-green?style=for-the-badge)
+![Modpacks](https://img.shields.io/badge/Modpacks-2-orange?style=for-the-badge)
 
-### 1. VERSION 1.21.4 SEMI-VANILLA (NEOFORGE)
-- **Latest Minecraft 1.21.4** with NeoForge mod loader
-- **Includes:**
-  - **Essential** - Play with friends, voice chat, and cosmetics
-  - **Controllable** - Full gamepad/controller support
-- **Perfect for** playing with friends while enjoying the latest Minecraft features
+**Official distribution repository for Amadeuse Launcher**
+*Two carefully curated Minecraft modpacks for the ultimate gaming experience*
 
-### 2. VERSION 1.12.2 HYPIXEL (FORGE)
-- **Optimized for Hypixel server** gameplay with Forge
-- **Includes:**
-  - **Essential** - Play with friends and voice chat
-  - **Controllable** - Full gamepad/controller support
-  - **BetterFps** - Performance optimizations
-  - **Damage Indicators** - PvP enhancements
-  - **Mo' Bends** - Smooth animations
-  - **Dynamic Surroundings** - Immersive audio
-- **Perfect for** Hypixel minigames with friends and controller support
+</div>
 
-## 📁 Repository Structure
+---
+
+## 🎮 **Featured Modpacks**
+
+<table>
+<tr>
+<td width="50%">
+
+### 🌟 **VERSION 1.21.4 SEMI-VANILLA (NEOFORGE)**
+*Latest Minecraft with enhanced multiplayer*
+
+**🔧 Mod Loader:** NeoForge 21.4.140
+**🎯 Target:** Latest Minecraft experience with friends
+
+**📦 Included Mods:**
+- 👥 **Essential** - Voice chat, cosmetics, friends system
+- 🎮 **Controllable** - Full gamepad support
+
+**✨ Perfect for:**
+- Playing with friends
+- Latest Minecraft features
+- Cross-platform gaming
+- Voice communication
+
+</td>
+<td width="50%">
+
+### ⚔️ **VERSION 1.12.2 HYPIXEL (FORGE)**
+*Optimized for competitive Hypixel gameplay*
+
+**🔧 Mod Loader:** Forge 14.23.5.2860
+**🎯 Target:** Hypixel server optimization
+
+**📦 Included Mods:**
+- 👥 **Essential** - Friends and voice chat
+- 🎮 **Controllable** - Controller support
+- ⚡ **BetterFps** - Performance boost
+- 💥 **Damage Indicators** - PvP advantage
+- 🎭 **Mo' Bends** - Smooth animations
+- 🎵 **Dynamic Surroundings** - Immersive audio
+- 📚 **OreLib** - Required library
+
+**✨ Perfect for:**
+- Hypixel minigames
+- PvP combat
+- Controller gaming
+- Performance optimization
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏗️ **Technical Overview**
+
+<details>
+<summary><b>📁 Repository Structure</b></summary>
 
 ```
-github_distribution/
-├── distribution.json          # Main distribution configuration
-├── rss.xml                   # News feed
-├── servers/                  # Server-specific files
-│   ├── minecraft-1.21.4-neoforge/     # NeoForge with Essential + Controllable
-│   └── minecraft-1.12.2-hypixel/      # Forge with Hypixel optimization mods
-└── repo/                     # Mod and library files
-    ├── lib/                  # Libraries and mod loaders
+AmadeuseLauncher-Distribution/
+├── 📄 distribution.json          # Main distribution configuration
+├── 📰 rss.xml                   # News feed for launcher
+├── 📚 README.md                 # This documentation
+├── 🖥️ servers/                  # Modpack configurations
+│   ├── minecraft-1.21.4-neoforge/     # NeoForge modpack
+│   │   ├── mods/                       # NeoForge mods
+│   │   └── ICON.png                    # Modpack icon
+│   └── minecraft-1.12.2-hypixel/      # Forge modpack
+│       ├── mods/                       # Forge mods
+│       ├── overrides/config/           # Pre-configured settings
+│       └── ICON.png                    # Modpack icon
+└── 📦 repo/                     # Mod loaders and libraries
+    ├── lib/                            # Mod loader files
     │   ├── net/minecraftforge/forge/   # Forge 1.12.2
     │   └── net/neoforged/neoforge/     # NeoForge 1.21.4
-    └── versions/             # Version manifests
-        ├── 1.12.2-forge-14.23.5.2859/
-        └── 1.21.4-neoforge-21.4.18/
+    └── versions/                       # Version manifests
+        ├── 1.12.2-forge-14.23.5.2860/
+        └── 1.21.4-neoforge-21.4.140/
 ```
 
-## 🔗 Usage
+</details>
 
-To use this distribution with Amadeuse Launcher, update the distribution URL in the launcher to:
-```
-https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/distribution.json
-```
+<details>
+<summary><b>⚙️ System Requirements</b></summary>
 
-## 🛠️ Adding Mods
+### Minimum Requirements
+- **Java:** 8+ (1.12.2) / 21+ (1.21.4)
+- **RAM:** 4GB allocated to Minecraft
+- **Storage:** 2GB free space
+- **Internet:** Stable connection for downloads
 
-To add new mods to any modpack:
+### Recommended Requirements
+- **Java:** Latest LTS version
+- **RAM:** 6-8GB allocated to Minecraft
+- **Storage:** 5GB free space
+- **Controller:** Xbox/PlayStation/Generic USB (optional)
 
-1. Upload the mod file to the appropriate `servers/{modpack}/mods/` directory
-2. Calculate the MD5 hash of the file
-3. Update the `distribution.json` with the new mod entry
-4. Commit and push changes
+</details>
 
-## 📞 Support
+---
 
-- **Discord:** https://discord.gg/GEZCQwczMY
-- **GitHub Issues:** https://github.com/AveryMist/AmadeuseLauncher/issues
+## 🚀 **Getting Started**
 
-## 📄 License
+### 📥 **Download Amadeuse Launcher**
+1. Visit the [Amadeuse Launcher releases](https://github.com/AveryMist/AmadeuseLauncher/releases)
+2. Download the latest version for your operating system
+3. Install and launch the application
+4. The modpacks will be automatically available!
 
-This distribution is provided for use with Amadeuse Launcher. Individual mods retain their respective licenses.
+### 🎮 **Choose Your Adventure**
+- **New to Minecraft?** → Try **1.21.4 Semi-Vanilla** for the latest features
+- **Hypixel Player?** → Choose **1.12.2 Hypixel** for optimized gameplay
+- **Controller User?** → Both modpacks support full gamepad controls!
+
+---
+
+## 🤝 **Community & Support**
+
+<div align="center">
+
+[![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?color=7289da&label=Discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/GEZCQwczMY)
+[![GitHub Issues](https://img.shields.io/github/issues/AveryMist/AmadeuseLauncher?style=for-the-badge&logo=github)](https://github.com/AveryMist/AmadeuseLauncher/issues)
+
+**Join our community for support, updates, and gaming together!**
+
+</div>
+
+### � **Get Help**
+- 🆘 **Technical Issues:** [GitHub Issues](https://github.com/AveryMist/AmadeuseLauncher/issues)
+- 💭 **General Chat:** [Discord Server](https://discord.gg/GEZCQwczMY)
+- 📖 **Documentation:** Check the launcher's built-in help
+
+### 🔄 **Stay Updated**
+- ⭐ **Star this repository** to get notified of updates
+- 📢 **Follow us on Discord** for announcements
+- 🔔 **Enable GitHub notifications** for release updates
+
+---
+
+## 📄 **License & Credits**
+
+<div align="center">
+
+**Made with ❤️ by the Amadeuse Team**
+
+*This distribution is provided for use with Amadeuse Launcher.*
+*Individual mods retain their respective licenses and credits to their creators.*
+
+[![GitHub](https://img.shields.io/badge/GitHub-AveryMist-black?style=for-the-badge&logo=github)](https://github.com/AveryMist)
+
+</div>
