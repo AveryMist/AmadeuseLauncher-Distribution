@@ -1,0 +1,214 @@
+{
+  "version": "1.0.0",
+  "rss": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/rss.xml",
+  "discord": {
+    "clientId": "1356621256920797245",
+    "smallImageText": "Amadeuse Launcher",
+    "smallImageKey": "amadeuse"
+  },
+  "servers": [
+    {
+      "id": "minecraft-1.21.4-neoforge",
+      "name": "VERSION 1.21.4 SEMI-VANILLA (NEOFORGE)",
+      "description": "Latest Minecraft 1.21.4 with NeoForge - Essential mod and controller support for playing with friends!",
+      "icon": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.21.4-neoforge/icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "MC 1.21.4",
+        "largeImageKey": "minecraft",
+        "largeImageText": "Minecraft 1.21.4 Vanilla"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.neoforged:neoforge:21.4.140",
+          "name": "NeoForge",
+          "type": "NeoForge",
+          "artifact": {
+            "size": 4500000,
+            "MD5": "DF42EC4C2B1AA010B7DCE5E270B14D5E",
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/repo/lib/net/neoforged/neoforge/21.4.140/neoforge-21.4.140-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-neoforge-21.4.140",
+              "name": "NeoForge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15000,
+                "MD5": "0F270025BFF4BED51716D9C328E1567E",
+                "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/repo/versions/1.21.4-neoforge-21.4.140/neoforge-21.4.140.json"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gg.essential:essential:1.3.8.2@jar",
+          "name": "Essential",
+          "type": "NeoForgeMod",
+          "artifact": {
+            "size": 25000000,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.21.4-neoforge/mods/Essential_1-3-8-2_neoforge_1-21-4.jar",
+            "MD5": "C9E0E7EA63F8C99F82AE85B6497547F1"
+          }
+        },
+        {
+          "id": "net.mrcrayfish:controllable:0.23.3@jar",
+          "name": "Controllable",
+          "type": "NeoForgeMod",
+          "artifact": {
+            "size": 850000,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.21.4-neoforge/mods/controllable-neoforge-1.21.4-0.23.3.jar",
+            "MD5": "958AA1AF2F6667983E46D4CA2F9295D1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "minecraft-1.12.2-hypixel",
+      "name": "VERSION 1.12.2 HYPIXEL (FORGE)",
+      "description": "Minecraft 1.12.2 with Forge - Essential mod, controller support, and PvP enhancements optimized for Hypixel",
+      "icon": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/icon.png",
+      "version": "1.0.0",
+      "address": "mc.hypixel.net",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "Hypixel 1.12.2",
+        "largeImageKey": "hypixel",
+        "largeImageText": "Hypixel Gaming"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466108,
+            "MD5": "2B5B6CCFA3C6FFCEA9073D13D1EC5236",
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2860",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 12345,
+                "MD5": "D6A5E2309DB32FCD91AA76DE37A5E850",
+                "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.mrcrayfish:controllable:0.11.2@jar",
+          "name": "Controllable",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 850000,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/controllable-0.11.2-1.12.2.jar",
+            "MD5": "958AA1AF2F6667983E46D4CA2F9295D1"
+          }
+        },
+        {
+          "id": "guichaguri:betterfps:1.4.8@jar",
+          "name": "BetterFps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 300000,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/BetterFps-1.4.8.jar",
+            "MD5": "D36F4D3C0F96E99A9A1AD2E8EEDA1FC4"
+          }
+        },
+        {
+          "id": "rich1051414:damageindicatorsmod:3.5.1@jar",
+          "name": "Damage Indicators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 400000,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/[1.12.2]DamageIndicatorsMod-3.5.1.jar",
+            "MD5": "70CE5DA36AF6976103BF0AAFEA507074"
+          }
+        },
+        {
+          "id": "gobbob:mobends:1.2.1@jar",
+          "name": "Mo' Bends",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 600000,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/MoBends_1.12.2-1.2.1-19.12.21.jar",
+            "MD5": "C4079332690A3CFDA665740573415C0C"
+          }
+        },
+        {
+          "id": "org.orecruncher:dsurround:3.6.3@jar",
+          "name": "Dynamic Surroundings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15000000,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/DynamicSurroundings-1.12.2-3.6.3.jar",
+            "MD5": "77E815CE9C8DD68ECBA4EB884D6DB4D2"
+          }
+        },
+        {
+          "id": "org.orecruncher:orelib:3.6.0.1@jar",
+          "name": "OreLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 350000,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/OreLib-1.12.2-3.6.0.1.jar",
+            "MD5": "00CCE3B240365458ADCAD3E77782358A"
+          }
+        },
+        {
+          "id": "gg.essential:essential:1.3.8.2@jar",
+          "name": "Essential",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25000000,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/Essential_1-3-8-2_forge_1-12-2.jar",
+            "MD5": "98C0E866C88CAC4628D2D00E8E5C22C8"
+          }
+        },
+        {
+          "id": "betterfps.json",
+          "name": "BetterFps Configuration",
+          "type": "File",
+          "artifact": {
+            "size": 500,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/overrides/config/betterfps.json",
+            "MD5": "9FAFC11A63BC72F6D2CFA5A3E3EBD02B",
+            "path": "config/betterfps.json"
+          }
+        },
+        {
+          "id": "keystrokes.json",
+          "name": "Keystrokes Configuration",
+          "type": "File",
+          "artifact": {
+            "size": 300,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/overrides/config/keystrokes.json",
+            "MD5": "56252D50C544A87F12EE2E5C2601F74D",
+            "path": "config/keystrokes.json"
+          }
+        },
+        {
+          "id": "mobends.cfg",
+          "name": "Mo' Bends Configuration",
+          "type": "File",
+          "artifact": {
+            "size": 1000,
+            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/overrides/config/mobends.cfg",
+            "MD5": "95BA05EF01861EE260B40C95E9CC5AEC",
+            "path": "config/mobends.cfg"
+          }
+        }
+      ]
+    }
+  ]
+}
