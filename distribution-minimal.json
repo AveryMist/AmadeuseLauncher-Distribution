@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "rss": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/rss.xml",
+  "discord": {
+    "clientId": "1356621256920797245",
+    "smallImageText": "Amadeuse Launcher",
+    "smallImageKey": "amadeuse"
+  },
+  "servers": [
+    {
+      "id": "minecraft-1.21.4-minimal",
+      "name": "Minecraft 1.21.4 Minimal",
+      "description": "Minimal Minecraft 1.21.4 setup for testing",
+      "icon": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.21.4-neoforge/ICON.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "MC 1.21.4",
+        "largeImageKey": "minecraft",
+        "largeImageText": "Minecraft 1.21.4"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraft:client:1.21.4",
+          "name": "Minecraft Client",
+          "type": "Version",
+          "artifact": {
+            "size": 1000000,
+            "MD5": "00000000000000000000000000000000",
+            "url": "https://launcher.mojang.com/v1/objects/minecraft.jar"
+          }
+        }
+      ]
+    }
+  ]
+}
