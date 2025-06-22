@@ -46,7 +46,7 @@
           ]
         },
         {
-          "id": "essential-neoforge-1.21.4",
+          "id": "gg.essential:essential-neoforge:1.21.4",
           "name": "Essential",
           "type": "ForgeMod",
           "artifact": {
@@ -56,7 +56,7 @@
           }
         },
         {
-          "id": "controllable-neoforge-1.21.4",
+          "id": "com.mrcrayfish:controllable:1.21.4",
           "name": "Controllable",
           "type": "ForgeMod",
           "artifact": {
@@ -106,7 +106,7 @@
           ]
         },
         {
-          "id": "controllable-forge-1.12.2",
+          "id": "com.mrcrayfish:controllable:1.12.2",
           "name": "Controllable",
           "type": "ForgeMod",
           "artifact": {
@@ -116,7 +116,7 @@
           }
         },
         {
-          "id": "betterfps-forge-1.12.2",
+          "id": "me.guichaguri:betterfps:1.12.2",
           "name": "BetterFps",
           "type": "ForgeMod",
           "artifact": {
@@ -126,7 +126,7 @@
           }
         },
         {
-          "id": "damage-indicators-forge-1.12.2",
+          "id": "net.rich:damageindicators:1.12.2",
           "name": "Damage Indicators",
           "type": "ForgeMod",
           "artifact": {
@@ -136,7 +136,7 @@
           }
         },
         {
-          "id": "mobends-forge-1.12.2",
+          "id": "net.gobbob:mobends:1.12.2",
           "name": "Mo' Bends",
           "type": "ForgeMod",
           "artifact": {
@@ -146,7 +146,7 @@
           }
         },
         {
-          "id": "dynamicsurroundings-forge-1.12.2",
+          "id": "org.orecruncher:dynamicsurroundings:1.12.2",
           "name": "Dynamic Surroundings",
           "type": "ForgeMod",
           "artifact": {
@@ -156,7 +156,7 @@
           }
         },
         {
-          "id": "orelib-forge-1.12.2",
+          "id": "net.darkhax:orelib:1.12.2",
           "name": "OreLib",
           "type": "ForgeMod",
           "artifact": {
@@ -166,7 +166,7 @@
           }
         },
         {
-          "id": "essential-forge-1.12.2",
+          "id": "gg.essential:essential-forge:1.12.2",
           "name": "Essential",
           "type": "ForgeMod",
           "artifact": {
