@@ -46,22 +46,22 @@
           ]
         },
         {
-          "id": "gg.essential:essential:1.3.8.2@jar",
+          "id": "essential-neoforge-1.21.4",
           "name": "Essential",
           "type": "NeoForgeMod",
           "artifact": {
-            "size": 25000000,
-            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.21.4-neoforge/mods/Essential_1-3-8-2_neoforge_1-21-4.jar",
+            "size": 53606433,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/essential-mod/download/6661560",
             "MD5": "C9E0E7EA63F8C99F82AE85B6497547F1"
           }
         },
         {
-          "id": "net.mrcrayfish:controllable:0.23.3@jar",
+          "id": "controllable-neoforge-1.21.4",
           "name": "Controllable",
           "type": "NeoForgeMod",
           "artifact": {
             "size": 850000,
-            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.21.4-neoforge/mods/controllable-neoforge-1.21.4-0.23.3.jar",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/controllable/download/6277391",
             "MD5": "958AA1AF2F6667983E46D4CA2F9295D1"
           }
         }
@@ -106,47 +106,47 @@
           ]
         },
         {
-          "id": "net.mrcrayfish:controllable:0.11.2@jar",
+          "id": "controllable-forge-1.12.2",
           "name": "Controllable",
           "type": "ForgeMod",
           "artifact": {
             "size": 850000,
-            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/controllable-0.11.2-1.12.2.jar",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/controllable/download/3222475",
             "MD5": "958AA1AF2F6667983E46D4CA2F9295D1"
           }
         },
         {
-          "id": "guichaguri:betterfps:1.4.8@jar",
+          "id": "betterfps-forge-1.12.2",
           "name": "BetterFps",
           "type": "ForgeMod",
           "artifact": {
             "size": 300000,
-            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/BetterFps-1.4.8.jar",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/betterfps/download/2483393",
             "MD5": "D36F4D3C0F96E99A9A1AD2E8EEDA1FC4"
           }
         },
         {
-          "id": "rich1051414:damageindicatorsmod:3.5.1@jar",
+          "id": "damage-indicators-forge-1.12.2",
           "name": "Damage Indicators",
           "type": "ForgeMod",
           "artifact": {
             "size": 400000,
-            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/[1.12.2]DamageIndicatorsMod-3.5.1.jar",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/damage-indicators-mod/download/2788452",
             "MD5": "70CE5DA36AF6976103BF0AAFEA507074"
           }
         },
         {
-          "id": "gobbob:mobends:1.2.1@jar",
+          "id": "mobends-forge-1.12.2",
           "name": "Mo' Bends",
           "type": "ForgeMod",
           "artifact": {
             "size": 600000,
-            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/MoBends_1.12.2-1.2.1-19.12.21.jar",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mo-bends/download/3573346",
             "MD5": "C4079332690A3CFDA665740573415C0C"
           }
         },
         {
-          "id": "org.orecruncher:dsurround:3.6.3@jar",
+          "id": "dynamicsurroundings-forge-1.12.2",
           "name": "Dynamic Surroundings",
           "type": "ForgeMod",
           "artifact": {
@@ -156,22 +156,22 @@
           }
         },
         {
-          "id": "org.orecruncher:orelib:3.6.0.1@jar",
+          "id": "orelib-forge-1.12.2",
           "name": "OreLib",
           "type": "ForgeMod",
           "artifact": {
             "size": 350000,
-            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/OreLib-1.12.2-3.6.0.1.jar",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/orelib/download/2820815",
             "MD5": "00CCE3B240365458ADCAD3E77782358A"
           }
         },
         {
-          "id": "gg.essential:essential:1.3.8.2@jar",
+          "id": "essential-forge-1.12.2",
           "name": "Essential",
           "type": "ForgeMod",
           "artifact": {
-            "size": 25000000,
-            "url": "https://raw.githubusercontent.com/AveryMist/AmadeuseLauncher-Distribution/main/servers/minecraft-1.12.2-hypixel/mods/Essential_1-3-8-2_forge_1-12-2.jar",
+            "size": 53606433,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/essential-mod/download/6661555",
             "MD5": "98C0E866C88CAC4628D2D00E8E5C22C8"
           }
         },

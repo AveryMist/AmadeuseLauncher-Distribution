@@ -65,6 +65,33 @@
 
 ---
 
+## 🔧 **Advanced Mod Management System**
+
+Amadeuse Launcher utilise un **système d'ID unique** pour chaque mod, permettant une gestion automatique intelligente :
+
+### ✨ **Fonctionnalités Automatiques**
+- 🆕 **Auto-détection des nouveaux mods** - Téléchargement automatique
+- 🔄 **Mise à jour intelligente** - Détection des nouvelles versions
+- 🗑️ **Suppression automatique** - Nettoyage des mods retirés
+- 🎯 **Séparation par version** - Pas de conflit entre Forge/NeoForge
+
+### 🏷️ **Système d'ID Unique**
+Chaque mod a un ID spécifique : `{mod-name}-{loader}-{minecraft-version}`
+
+**Exemples :**
+- `essential-forge-1.12.2` → Essential pour Forge 1.12.2
+- `essential-neoforge-1.21.4` → Essential pour NeoForge 1.21.4
+- `controllable-forge-1.12.2` → Controllable pour Forge 1.12.2
+
+### 📦 **Sources de Téléchargement**
+- 🌐 **CurseForge** - Mods principaux (pas de limite de taille)
+- 📁 **GitHub** - Configurations et petits fichiers
+- 🔒 **Vérification MD5** - Intégrité garantie
+
+> 📖 **Documentation complète :** Voir [MOD_MANAGEMENT.md](MOD_MANAGEMENT.md) pour les détails techniques
+
+---
+
 ## 🏗️ **Technical Overview**
 
 <details>
@@ -73,6 +100,8 @@
 ```
 AmadeuseLauncher-Distribution/
 ├── 📄 distribution.json          # Main distribution configuration
+├── 🔧 mod-downloads.json         # Mod management database with unique IDs
+├── 📖 MOD_MANAGEMENT.md          # Technical documentation for mod system
 ├── 📰 rss.xml                   # News feed for launcher
 ├── 📚 README.md                 # This documentation
 ├── 🖥️ servers/                  # Modpack configurations

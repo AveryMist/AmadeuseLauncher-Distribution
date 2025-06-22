@@ -1,0 +1,129 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-01-22",
+  "modpacks": {
+    "minecraft-1.12.2-forge": {
+      "minecraft_version": "1.12.2",
+      "mod_loader": "forge",
+      "mod_loader_version": "14.23.5.2860",
+      "mods": {
+        "essential-forge-1.12.2": {
+          "id": "essential-forge-1.12.2",
+          "name": "Essential",
+          "version": "1.3.8.2",
+          "filename": "Essential_1-3-8-2_forge_1-12-2.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/essential-mod/download/6661555",
+          "curseforge_project_id": "essential-mod",
+          "curseforge_file_id": "6661555",
+          "required": true,
+          "client_side": "required",
+          "server_side": "optional"
+        },
+        "damage-indicators-forge-1.12.2": {
+          "id": "damage-indicators-forge-1.12.2",
+          "name": "Damage Indicators",
+          "version": "3.5.1",
+          "filename": "[1.12.2]DamageIndicatorsMod-3.5.1.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/damage-indicators-mod/download/2788452",
+          "curseforge_project_id": "damage-indicators-mod",
+          "curseforge_file_id": "2788452",
+          "required": false,
+          "client_side": "required",
+          "server_side": "unsupported"
+        },
+        "betterfps-forge-1.12.2": {
+          "id": "betterfps-forge-1.12.2",
+          "name": "BetterFps",
+          "version": "1.4.8",
+          "filename": "BetterFps-1.4.8.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/betterfps/download/2483393",
+          "curseforge_project_id": "betterfps",
+          "curseforge_file_id": "2483393",
+          "required": false,
+          "client_side": "required",
+          "server_side": "unsupported"
+        },
+        "controllable-forge-1.12.2": {
+          "id": "controllable-forge-1.12.2",
+          "name": "Controllable",
+          "version": "0.11.2",
+          "filename": "controllable-0.11.2-1.12.2.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/controllable/download/3222475",
+          "curseforge_project_id": "controllable",
+          "curseforge_file_id": "3222475",
+          "required": false,
+          "client_side": "required",
+          "server_side": "unsupported"
+        },
+        "mobends-forge-1.12.2": {
+          "id": "mobends-forge-1.12.2",
+          "name": "Mo' Bends",
+          "version": "1.2.1",
+          "filename": "MoBends_1.12.2-1.2.1-19.12.21.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/mo-bends/download/3573346",
+          "curseforge_project_id": "mo-bends",
+          "curseforge_file_id": "3573346",
+          "required": false,
+          "client_side": "required",
+          "server_side": "unsupported"
+        },
+        "orelib-forge-1.12.2": {
+          "id": "orelib-forge-1.12.2",
+          "name": "OreLib",
+          "version": "3.6.0.1",
+          "filename": "OreLib-1.12.2-3.6.0.1.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/orelib/download/2820815",
+          "curseforge_project_id": "orelib",
+          "curseforge_file_id": "2820815",
+          "required": true,
+          "client_side": "required",
+          "server_side": "required",
+          "note": "Required dependency for Dynamic Surroundings"
+        },
+        "dynamicsurroundings-forge-1.12.2": {
+          "id": "dynamicsurroundings-forge-1.12.2",
+          "name": "Dynamic Surroundings",
+          "version": "3.6.3",
+          "filename": "DynamicSurroundings-1.12.2-3.6.3.jar",
+          "url": "https://github.com/AveryMist/AmadeuseLauncher-Distribution/raw/main/servers/minecraft-1.12.2-hypixel/mods/DynamicSurroundings-1.12.2-3.6.3.jar",
+          "source": "github",
+          "required": false,
+          "client_side": "required",
+          "server_side": "unsupported",
+          "note": "Small file - kept in GitHub"
+        }
+      }
+    },
+    "minecraft-1.21.4-neoforge": {
+      "minecraft_version": "1.21.4",
+      "mod_loader": "neoforge",
+      "mod_loader_version": "21.4.140",
+      "mods": {
+        "essential-neoforge-1.21.4": {
+          "id": "essential-neoforge-1.21.4",
+          "name": "Essential",
+          "version": "1.3.8.2",
+          "filename": "Essential_1-3-8-2_neoforge_1-21-4.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/essential-mod/download/6661560",
+          "curseforge_project_id": "essential-mod",
+          "curseforge_file_id": "6661560",
+          "required": true,
+          "client_side": "required",
+          "server_side": "optional"
+        },
+        "controllable-neoforge-1.21.4": {
+          "id": "controllable-neoforge-1.21.4",
+          "name": "Controllable",
+          "version": "0.23.3",
+          "filename": "controllable-neoforge-1.21.4-0.23.3.jar",
+          "url": "https://www.curseforge.com/minecraft/mc-mods/controllable/download/6277391",
+          "curseforge_project_id": "controllable",
+          "curseforge_file_id": "6277391",
+          "required": false,
+          "client_side": "required",
+          "server_side": "unsupported"
+        }
+      }
+    }
+  }
+}
