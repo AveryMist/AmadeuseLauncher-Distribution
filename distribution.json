@@ -26,7 +26,7 @@
         {
           "id": "net.neoforged:neoforge:21.4.140",
           "name": "NeoForge",
-          "type": "ForgeHosted",
+          "type": "NeoForge",
           "artifact": {
             "size": 4500000,
             "MD5": "DF42EC4C2B1AA010B7DCE5E270B14D5E",
@@ -48,7 +48,7 @@
         {
           "id": "essential-neoforge-1.21.4",
           "name": "Essential",
-          "type": "ForgeMod",
+          "type": "NeoForgeMod",
           "artifact": {
             "size": 53606433,
             "url": "https://www.curseforge.com/minecraft/mc-mods/essential-mod/download/6661560",
@@ -58,7 +58,7 @@
         {
           "id": "controllable-neoforge-1.21.4",
           "name": "Controllable",
-          "type": "ForgeMod",
+          "type": "NeoForgeMod",
           "artifact": {
             "size": 850000,
             "url": "https://www.curseforge.com/minecraft/mc-mods/controllable/download/6277391",
