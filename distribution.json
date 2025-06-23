@@ -56,8 +56,8 @@
           }
         },
         {
-          "id": "com.mrcrayfish:controllable:1.21.4",
-          "name": "Controllable",
+          "id": "com.mrcrayfish:midnightControls:1.21.4",
+          "name": "MidnightControls",
           "type": "ForgeMod",
           "artifact": {
             "size": 850000,
